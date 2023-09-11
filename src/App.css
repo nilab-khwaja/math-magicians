@@ -6,10 +6,17 @@ body {
   box-sizing: border-box;
 }
 
+.heading {
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  left: 50%;
+}
+
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

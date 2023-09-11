@@ -1,7 +1,10 @@
 import React from 'react';
+import Heading from './heading';
 
 const Calculator = () => (
+
   <>
+    <Heading />
     <div className="calculator">
       <div className="result">0</div>
       {/* symboles */}
