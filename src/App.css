@@ -7,10 +7,8 @@ body {
 }
 
 .heading {
-  align-items: center;
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  left: 50%;
+  width: 100%;
 }
 
 .calculator {
@@ -29,6 +27,7 @@ body {
   justify-content: end;
   background-color: rgb(133, 134, 148);
   color: white;
+  height: 70px;
 }
 
 div {
@@ -36,7 +35,7 @@ div {
   align-items: center;
   font-size: 1rem;
   border: 1px solid gray;
-  padding: 10px;
+  padding: 0;
 }
 
 .zero {
@@ -49,6 +48,10 @@ div {
 
 div:hover {
   cursor: pointer;
+}
+
+button {
+  padding: 10px;
 }
 
 .calculator div:not(.result) {
