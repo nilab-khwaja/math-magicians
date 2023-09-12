@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
 const ResultView = ({ obj }) => (!obj ? (
@@ -8,15 +7,15 @@ const ResultView = ({ obj }) => (!obj ? (
   </div>
 ) : (
   <div className="result">
-
     <p>
       {obj.total}
+      {' '}
       {obj.operation}
+      {' '}
       {obj.next}
     </p>
   </div>
 ));
-
 export default ResultView;
 
 ResultView.defaultProps = {
