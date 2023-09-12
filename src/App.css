@@ -62,3 +62,12 @@ button {
 .calculator div:not(.result, .orange) {
   background-color: rgb(224, 224, 224);
 }
+
+.quote-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
