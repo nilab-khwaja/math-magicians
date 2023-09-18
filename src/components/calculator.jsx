@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import ResultView from './result';
-import Heading from './heading';
 
 const Calculator = () => {
   const [obj, setObj] = useState({});
@@ -10,7 +9,7 @@ const Calculator = () => {
   };
   return (
     <>
-      <Heading />
+      <h2>Let&apos;s do some calculation</h2>
       <div className="calculator">
         <ResultView obj={obj} />
         {/* symboles */}
