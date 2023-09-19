@@ -1,14 +1,71 @@
-.App {
-  text-align: center;
-}
-
 body {
-  box-sizing: border-box;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: 100%;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
-.heading {
+.navbar {
+  background-color: lightgray; /* Background color for the navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px; /* Add padding for better spacing */
+  color: black;
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: black;
+}
+
+.navbar li {
+  margin-right: 20px; /* Add margin between list items */
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Add a smooth color transition on hover */
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #f60; /* Change color on hover */
+  text-decoration: underline;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
   text-align: center;
-  width: 100%;
+  font-size: 2rem;
+}
+
+h3 {
+  padding-left: 40px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+}
+
+.home div {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .calculator {
@@ -29,14 +86,8 @@ body {
   color: white;
   height: 70px;
   font-weight: 500;
-}
-
-div {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  border: 1px solid gray;
-  padding: 0;
+  text-align: end;
+  padding-right: 10px;
 }
 
 .zero {
@@ -45,10 +96,6 @@ div {
 
 .orange {
   background-color: orange;
-}
-
-div:hover {
-  cursor: pointer;
 }
 
 button {
@@ -64,10 +111,31 @@ button {
 }
 
 .quote-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f1f1f1;
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
 }
