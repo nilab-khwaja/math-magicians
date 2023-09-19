@@ -90,14 +90,6 @@ h3 {
   padding-right: 10px;
 }
 
-/* div {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  border: 1px solid gray;
-  padding: 0;
-} */
-
 .zero {
   grid-column-start: span 2;
 }
@@ -105,10 +97,6 @@ h3 {
 .orange {
   background-color: orange;
 }
-
-/* div:hover {
-  cursor: pointer;
-} */
 
 button {
   padding: 10px;
