@@ -61,7 +61,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+ 
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
+> Here you can see a live demo of Project
+
+- [Live Demo Link](https://math-magicians-rp44.onrender.com)
 
 <!-- GETTING STARTED -->
 
@@ -83,12 +88,12 @@
 - Clone this repository or download the Zip folder:
 
 ```
-git clone https://github.com/nilab-khwaja/Leaderboard
+git clone https://github.com/nilab-khwaja/math-magicians
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd math-magician``**
+**``you@your-Pc-name:~$ cd math-magicians``**
 
 ### Usage
 
@@ -121,8 +126,8 @@ npm start .
 
 ### Deployment
 
-- I used GitHub Pages to deploy my website
-- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
+- I used Render to deploy my website
+- For more information about publishing sources, see "[About render](https://render.com/docs)"
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -151,7 +156,6 @@ npm start .
 
 ## Credits
 
-- The original design ideal [Microverse💕](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10)
 - Project from [Microverse](https://bit.ly/MicroverseTN) React and Redux module
 
 ## 🤝 Contributing
